@@ -23,8 +23,9 @@ img {
 .container {
     max-width: 1100px;
     margin: 0 auto;
-    overflow: auto;
+
 }
+
 
 .hero .container {
     margin-top: 20px;
@@ -36,6 +37,7 @@ img {
     width: 520px;
     border-left: 4px solid var(--purple-red) ;
     position: relative;
+    animation: slideInFromLeft 1s ease-in;
 }
 
 .mission-focus h1 {
@@ -61,7 +63,10 @@ img {
 
 .hero .img-section{
     flex-basis: 500px;
+    animation: slideInFromRisht 1s ease-in;
 }
+
+
 
 
 .purple {
@@ -240,6 +245,29 @@ footer h1,.footer-p{
     text-align: center;
     letter-spacing: 1.5px;
 }
+
+/* Animation */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRisht {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* resposiveness */
+
+
 
 /* Utility */
 
