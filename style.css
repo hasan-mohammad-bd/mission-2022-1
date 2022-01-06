@@ -63,6 +63,7 @@ img {
 
 .purple:hover{
     color: var(--purple-red);
+    cursor: pointer;
 }
 
 .flex {
@@ -93,7 +94,9 @@ img {
 
 /* section-2 */
 
-
+.mission-section .flex {
+    justify-content: space-between;
+}
 
 .mission-section .mission-heading { 
    text-align: center;
@@ -104,6 +107,12 @@ img {
     margin: 0 10px;
     padding: 35px;
     border-radius: 5%;
+}
+
+.mission-section .box {
+    margin: 0;
+    height: 280px;
+    flex-basis: 280px;
 }
 
 .box-1 {
@@ -132,13 +141,22 @@ img {
 /* section-3 */
 
 .dream .container .img-holder img {
-    width: 80%;
+    width: 100%;
+   
+}
+
+
+.dream .flex {
+    justify-content: space-between;
 }
 .dream .box {
     margin: 0;
     padding: 0;   
+    flex-basis: 400px;
 }
-
+.dream .text-area{
+    flex-basis: 600px;
+}
 
 /* section-4 */
 .community .flex {
@@ -146,15 +164,17 @@ img {
     justify-content: space-between;
 }
 
-.community .container .img-holder img {
-    width: 80%;
-}
 .community .box {
     margin: 0;
     padding: 0;
-    position: relative;
-    left: 110px;
+    flex-basis: 400px;
 }
+
+.community .text-area {
+    flex-basis: 600px;
+}
+
+
 
 /* section-5 */
 
