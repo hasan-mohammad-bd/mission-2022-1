@@ -12,7 +12,6 @@ body {
     font-family:'Be Vietnam Pro', sans-serif;
     line-height: 1.2;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 img {
@@ -151,8 +150,11 @@ img {
 
 /* section-3 */
 
-.dream{
-    position: relative;
+.dream{  
+    background-image: url(./images/shapes/shape-4.png);
+    background-size: 20%;
+    background-position: bottom left;
+    background-repeat: no-repeat;
 }
 
 .dream .container .img-holder img {
@@ -160,13 +162,6 @@ img {
    
 }
 
-.dream .background-1 {
-    z-index: -1;
-    width: 15%;
-    position: absolute;
-    bottom: 10px;
-    display: inline-block;
-}
 
 .dream .flex {
     justify-content: space-between;
@@ -181,8 +176,12 @@ img {
 }
 
 /* section-4 */
+
 .community{
-    position: relative;
+    background-image: url(./images/shapes/shape-4.png);
+    background-size: 20%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
 }
 
 .community .flex {
@@ -198,16 +197,6 @@ img {
 
 .community .text-area {
     flex-basis: 600px;
-}
-
-.community .background-1 {
-    z-index: -1;
-    width: 15%;
-    position: absolute;
-    bottom: 10px;
-    right: -20px;
-    display: inline-block;
-
 }
 
 
