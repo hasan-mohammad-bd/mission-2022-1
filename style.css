@@ -28,6 +28,7 @@ img {
 
 .hero .container {
     margin-top: 20px;
+    justify-content: space-between;
 }
 
 .mission-focus {
@@ -54,6 +55,14 @@ img {
     padding-right: 100px;
 }
 
+.hero .text-area {
+    flex-basis: 300px;
+}
+
+.hero .img-section{
+    flex-basis: 500px;
+}
+
 
 .purple {
     color: var(--purple);
@@ -70,12 +79,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
-
-.flex > * {
-    flex-basis: 100%;
-}
-
 
 
 .btn {
@@ -97,6 +102,7 @@ img {
 .mission-section .flex {
     justify-content: space-between;
 }
+
 
 .mission-section .mission-heading { 
    text-align: center;
@@ -140,11 +146,22 @@ img {
 
 /* section-3 */
 
+.dream{
+    position: relative;
+}
+
 .dream .container .img-holder img {
     width: 100%;
    
 }
 
+.dream .background-1 {
+    z-index: -1;
+    width: 15%;
+    position: absolute;
+    bottom: 10px;
+    display: inline-block;
+}
 
 .dream .flex {
     justify-content: space-between;
@@ -159,6 +176,10 @@ img {
 }
 
 /* section-4 */
+.community{
+    position: relative;
+}
+
 .community .flex {
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -174,6 +195,16 @@ img {
     flex-basis: 600px;
 }
 
+.community .background-1 {
+    z-index: -1;
+    width: 15%;
+    position: absolute;
+    bottom: 10px;
+    right: -20px;
+    display: inline-block;
+
+}
+
 
 
 /* section-5 */
@@ -187,7 +218,8 @@ img {
 
 .grid .box {
     box-shadow: 0 10px 10px rgba(114, 114, 114, 0.295);
-    margin: 80px;
+    margin: 50px;
+    padding: 80px;
     text-align: center;
 }
 
@@ -195,6 +227,7 @@ img {
     text-align: center;
 }
 
+/* footer */
 
 footer {
     height: 150px;
