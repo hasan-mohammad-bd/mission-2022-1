@@ -181,10 +181,11 @@ footer {
     background-color: black;
 }
 
-footer h1,p {
-    font-family:serif;
+footer h1,.footer-p{
+    font-family: 'DM Serif Display', serif;
     color: white;
     text-align: center;
+    letter-spacing: 1.5px;
 }
 
 /* Utility */
