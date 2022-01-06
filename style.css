@@ -126,13 +126,13 @@ img {
 }
 
 .box-1 {
-    background-color: rgb(250, 255, 210);
+    background-color: rgba(250, 255, 210, 0.432);
 }
 .box-2 {
-    background-color: rgb(231, 221, 255)
+    background-color: rgba(231, 221, 255, 0.425)
 }
 .box-3 {
-    background-color: rgb(255, 221, 253)
+    background-color: rgba(255, 221, 253, 0.425)
 }
 
 
